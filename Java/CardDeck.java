@@ -76,7 +76,7 @@ class PlayingCard {
     }
 }
 
-class Demo {
+class Demo {  // Demo class to test the CardDeck class delete this class if you want to use the CardDeck class in another file
     public static void main(String[] args) {
         CardDeck deck = new CardDeck();
         System.out.println("\nOrdered deck of cards: ");

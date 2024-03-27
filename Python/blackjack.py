@@ -1,4 +1,8 @@
 # Created by John Petrie
+# This is an example of how you can utilize the carddeck module
+# In this case we have a simple game of 1 player blackjack
+# The game runs in the console, but the logic could be used in other applications like a chat bot
+
 
 import carddeck
 import time

@@ -58,4 +58,4 @@ def demo():
     display_deck(newdeck)
 
 
-demo() # This will run the demo function when the script is run
+# demo() # This will run the demo function when the script is run

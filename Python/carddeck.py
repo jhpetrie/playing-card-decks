@@ -24,16 +24,16 @@ class CardDeck:
                    for suit in suits
                    for value in values]
 
-        '''
-        The following is how this appears without list comprehension:
-        newdeck = []
-        for suit in suits:
-            for value in values:
-                newdeck.append(PlayingCard(suit, value, image=None))
-        '''
 
-        '''zip function is used to combine two lists into a single list of tuples
-        which is looped over assigning emoji to the current card in the tuple'''
+        # The following is how this appears without list comprehension:
+        # newdeck = []
+        # for suit in suits:
+        #     for value in values:
+        #         newdeck.append(PlayingCard(suit, value, image=None))
+
+
+        # zip function is used to combine two lists into a single list of tuples
+        # which is looped over assigning emoji to the current card in the tuple'''
         for emoji, card in zip(card_emojis, newdeck):
             card.image = emoji
 
